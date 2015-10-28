@@ -1,0 +1,152 @@
+body
+{
+    background: url("https://pp.vk.me/c625121/v625121151/482f6/wqx5iTerOk4.jpg")
+    fixed no-repeat rgba(253, 222, 127, 0.75);
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Antic Slab', serif;
+}
+
+/*Заголовок*/
+header
+{
+    text-align: right;
+    border: 5px double black;
+    margin-bottom: 20px;
+}
+
+h1
+{
+    text-align: center;
+    font-family: 'Frijole', cursive;
+    font-size: 60px;
+    text-shadow: -3px 3px 3px rgba(10, 14, 20, 0.72);
+}
+
+header p
+{
+    color: #5a5a5a;
+    margin: 0;
+    text-decoration: underline;
+}
+
+/*Оглавление*/
+h5
+{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-column-span: all;
+    column-span: all;
+    margin: 30px;
+
+}
+
+.table_of_contents article
+{
+    -webkit-column-break-inside: avoid;
+    break-inside: avoid;
+    -webkit-column-break-after: always;
+    break-after: always;
+    display:block;
+}
+
+h4
+{
+    color: rgba(10, 14, 20, 0.75);
+}
+
+h2
+{
+    font-family: 'Rock Salt', cursive;
+}
+
+a
+{
+    color: #000000;
+}
+
+a:visited
+{
+    color: rgba(148, 148, 148, 1);
+}
+
+a:active
+{
+    color: #000000;
+}
+
+/*Общее*/
+section
+{
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+    -webkit-column-rule: 1px solid #3c3f41;
+    -moz-column-rule: 1px solid #3c3f41;
+    column-rule: 1px solid #3c3f41;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+}
+
+.signature
+{
+    -webkit-column-break-inside: avoid;
+    -webkit-column-break-before: avoid;
+    break-before: avoid;
+    break-inside: avoid;
+    display:block;
+    line-height: 1em;
+    margin-top: 0;
+    color: rgba(3, 2, 2, 0.82);
+    font-size: small;
+    text-align: right;
+}
+
+img
+{
+    width: 98%;
+    -webkit-column-break-after: avoid;
+    break-after: avoid;
+    display: block;
+}
+
+main p:not(.signature)
+{
+    text-align: justify;
+}
+
+/*Содержимое*/
+h3
+{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: 'Kaushan Script', cursive;
+    column-span: all;
+    -webkit-column-span: all;
+}
+
+.contents p
+{
+    text-indent: 15px;
+}
+
+.first_paragraph:first-letter
+{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4em;
+    padding-right: 0.2em;
+    padding-top: 0;
+}
+
+q
+{
+    font-family: 'Marck Script', cursive;
+    font-style: italic;
+    font-size: 1.3em;
+}
