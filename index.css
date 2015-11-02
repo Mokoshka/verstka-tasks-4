@@ -1,16 +1,15 @@
 body
 {
     background: url("https://pp.vk.me/c625121/v625121151/482f6/wqx5iTerOk4.jpg")
-    fixed no-repeat rgba(253, 222, 127, 0.75);
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    background-size: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
+    fixed no-repeat #fdde7f;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    margin: 0 20px;
     font-family: 'Antic Slab', serif;
 }
 
-/*Заголовок*/
+/*���������*/
 header
 {
     text-align: right;
@@ -33,7 +32,7 @@ header p
     text-decoration: underline;
 }
 
-/*Оглавление*/
+/*����������*/
 h5
 {
     font-family: 'Luckiest Guy', cursive;
@@ -80,7 +79,7 @@ a:active
     color: #000000;
 }
 
-/*Общее*/
+/*�����*/
 section
 {
     -moz-column-count: 3;
@@ -108,7 +107,7 @@ section
     text-align: right;
 }
 
-img
+.content-img
 {
     width: 98%;
     -webkit-column-break-after: avoid;
@@ -121,7 +120,7 @@ main p:not(.signature)
     text-align: justify;
 }
 
-/*Содержимое*/
+/*����������*/
 h3
 {
     font-size: 40px;
